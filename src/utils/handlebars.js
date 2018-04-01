@@ -16,7 +16,7 @@ export default function(registrations) {
       const helpersToRegister = {};
       helpers.forEach((helper) => {
         const name = replaceExt(fsPath.basename(helper.path, '.js'), '');
-        const func = requireUncached(helper.path).default;
+        const func = requireUncached(helper.path);
         helpersToRegister[func.name] = func;
       });
 

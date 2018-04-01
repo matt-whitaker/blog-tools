@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "postinstall": "bower install && babel src --out-dir lib",
-    "test": "npm test"
+    "test": "npm test",
+    "start": "gulp",
+    "build": "gulp build"
   },
   "bin": {
     "build": "./bin/build.sh",

@@ -7,6 +7,14 @@
     "postinstall": "bower install && babel src --out-dir lib",
     "test": "npm test"
   },
+  "bin": {
+    "build": "./bin/build.sh",
+    "create-blog": "./bin/create-blog.sh",
+    "docker-push": "./bin/docker-push.sh",
+    "docker-tag": "./bin/docker-tag.sh",
+    "post-slack": "./bin/post-slack.sh",
+    "static-deploy": "./bin/static-deploy.sh"
+  },
   "author": "mattwhitaker.name@gmail.com",
   "license": "ISC",
   "dependencies": {

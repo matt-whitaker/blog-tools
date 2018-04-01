@@ -2,7 +2,7 @@
   "name": "blog-tools",
   "version": "0.0.1",
   "description": "Centralized repository for my personal static site generators",
-  "main": "index.js",
+  "main": "gulp/index.js",
   "scripts": {
     "test": "npm test"
   },

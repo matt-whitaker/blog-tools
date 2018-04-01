@@ -11,6 +11,7 @@
   },
   "bin": {
     "build": "./bin/build.sh",
+    "start": "./bin/start.sh",
     "create-blog": "./bin/create-blog.sh",
     "docker-push": "./bin/docker-push.sh",
     "docker-tag": "./bin/docker-tag.sh",

@@ -1,4 +1,4 @@
-import bower from 'main-bower-files';
+import bower from 'gulp-main-bower-files';
 import gulp from 'gulp';
 import printFiles from './utils/printFiles';
 
@@ -11,13 +11,8 @@ export default function(config) {
 
 
   return () =>
-    gulp.src(bower({
-      options: {
-        paths: {
-          bowerJson: 'node_modules/blog-tools/bower.json'
-        }
-      }
-    }), { base: 'node_modules/blog-tools/bower_components' })
+    gulp.src(['node_modules/blog-tools/bower.json'])
+      .pipe(bower())
       .pipe(gulp.dest(dstRoot))
       .pipe(printFiles('bower'));
 }

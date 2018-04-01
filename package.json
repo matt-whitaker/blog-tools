@@ -35,6 +35,7 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-inject": "^4.3.2",
     "gulp-less": "^3.5.0",
+    "gulp-main-bower-files": "^1.6.2",
     "gulp-markdown": "^2.0.1",
     "gulp-merge": "^0.1.1",
     "gulp-mustache": "^3.0.1",

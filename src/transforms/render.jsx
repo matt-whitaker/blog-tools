@@ -4,7 +4,6 @@ import toArray from 'stream-to-array';
 import Promise from 'bluebird';
 import R from 'ramda';
 import through2 from 'through2';
-import React from 'react';
 import { JSDOM } from 'jsdom';
 import createHandlebars from './../utils/handlebars';
 

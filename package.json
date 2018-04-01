@@ -4,7 +4,7 @@
   "description": "Centralized repository for my personal static site generators",
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": "babel src --out-dir lib",
+    "postinstall": "npx babel src --out-dir lib",
     "test": "npm test"
   },
   "author": "mattwhitaker.name@gmail.com",

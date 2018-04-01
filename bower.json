@@ -1,0 +1,20 @@
+{
+  "name": "blog-tools",
+  "description": "Centralized repository for my personal static site generators",
+  "main": "lib/index.js",
+  "authors": [
+    "mattwhitaker.name@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/matt-whitaker/blog-tools",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "7.0.0"
+  }
+}
